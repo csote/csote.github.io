@@ -1,0 +1,50 @@
+body {
+    background-color: #222831;
+}
+
+.quote {
+    margin-left: 10%;
+    margin-right: 10%;
+
+    display: flex;
+    justify-content: center;
+}
+.paragraph {
+    margin-left: 5%;
+    margin-right: 5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p, h5 {
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arrancar;
+    color: #DFD0B8;
+}
+
+
+a:link {
+    color: #8a8a8a;
+    text-decoration: none;
+}
+a:visited {
+    color: #FAFFFD;
+    text-decoration: none;
+}
+a:hover {
+    color: #afafaf;
+    text-decoration: none;
+}
+a:active {
+    color: #d2d2d2;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Arrancar';
+    src: url(fonts/Arrancar.ttf);
+}
